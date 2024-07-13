@@ -1,0 +1,72 @@
+body{
+    margin:0%
+}
+.navbar
+{
+    background-color: white;
+    overflow: hidden;
+}
+.navbar a {
+    float: right;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .home_image img{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .about_food h1{
+    border: 10px;
+    padding:3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .about_food p{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+  }
+form{
+    margin-left:30%;
+    margin-right:30%;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.button_1
+{
+    text-align: center;
+}
+
+.form1
+{
+    
+    text-align: center;
+    background-color: rgb(126, 101, 155);
+}
+.news{
+    text-align: center;
+    overflow: hidden;
+}
+.news img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure the image covers the div */
+}
